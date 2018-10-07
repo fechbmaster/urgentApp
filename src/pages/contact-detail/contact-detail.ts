@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import { Items } from '../../providers';
+import { Contacts } from '../../providers';
 
 @IonicPage()
 @Component({
   selector: 'page-item-detail',
-  templateUrl: 'item-detail.html'
+  templateUrl: 'contact-detail.html'
 })
-export class ItemDetailPage {
+export class ContactDetailPage {
   item: any;
 
-  constructor(public navCtrl: NavController, navParams: NavParams, items: Items) {
+  constructor(public navCtrl: NavController, navParams: NavParams, items: Contacts) {
     this.item = navParams.get('item') || items.defaultItem;
   }
 

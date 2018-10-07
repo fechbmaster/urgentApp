@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 
-import { Item } from '../../models/item';
+import { Contact } from '../../models/contact';
 import { Api } from '../api/api';
 
 @Injectable()
-export class Items {
+export class Contacts {
 
   constructor(public api: Api) { }
 
@@ -12,10 +12,10 @@ export class Items {
     return this.api.get('/items', params);
   }
 
-  add(item: Item) {
+  add(item: Contact) {
   }
 
-  delete(item: Item) {
+  delete(item: Contact) {
   }
 
 }

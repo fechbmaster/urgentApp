@@ -6,9 +6,9 @@ import { IonicPage, NavController, ViewController } from 'ionic-angular';
 @IonicPage()
 @Component({
   selector: 'page-item-create',
-  templateUrl: 'item-create.html'
+  templateUrl: 'contact-invite.html'
 })
-export class ItemCreatePage {
+export class ContactInvitePage {
   @ViewChild('fileInput') fileInput;
 
   isReadyToSave: boolean;

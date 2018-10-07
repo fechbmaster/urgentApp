@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 
-import { Item } from '../../models/item';
+import { Contact } from '../../models/contact';
 
 @Injectable()
-export class Items {
-  items: Item[] = [];
+export class Contacts {
+  items: Contact[] = [];
 
   defaultItem: any = {
     "name": "Burt Bear",
@@ -53,7 +53,7 @@ export class Items {
     ];
 
     for (let item of items) {
-      this.items.push(new Item(item));
+      this.items.push(new Contact(item));
     }
   }
 
@@ -75,11 +75,11 @@ export class Items {
     });
   }
 
-  add(item: Item) {
+  add(item: Contact) {
     this.items.push(item);
   }
 
-  delete(item: Item) {
+  delete(item: Contact) {
     this.items.splice(this.items.indexOf(item), 1);
   }
 }
