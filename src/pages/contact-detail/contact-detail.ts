@@ -5,7 +5,7 @@ import { Contacts } from '../../providers';
 
 @IonicPage()
 @Component({
-  selector: 'page-item-detail',
+  selector: 'page-contact-detail',
   templateUrl: 'contact-detail.html'
 })
 export class ContactDetailPage {

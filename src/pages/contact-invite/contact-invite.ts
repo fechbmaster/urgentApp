@@ -5,7 +5,7 @@ import { IonicPage, NavController, ViewController } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-item-create',
+  selector: 'page-contact-invite',
   templateUrl: 'contact-invite.html'
 })
 export class ContactInvitePage {

@@ -6,7 +6,7 @@ import { Contacts } from '../../providers';
 
 @IonicPage()
 @Component({
-  selector: 'page-list-master',
+  selector: 'page-contact-list-master',
   templateUrl: 'contact-list-master.html'
 })
 export class ContactListMasterPage {
